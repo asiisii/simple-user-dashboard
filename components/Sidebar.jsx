@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { RxSketchLogo, RxDashboard, RxPerson } from 'react-icons/rx'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { FiSettings } from 'react-icons/fi'
@@ -30,7 +29,7 @@ const Sidebar = ({ children }) => {
 							<HiOutlineShoppingBag size={20} />
 						</div>
 					</Link>
-					<Link href='/'>
+					<Link href='/settings'>
 						<div className='bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block'>
 							<FiSettings size={20} />
 						</div>
